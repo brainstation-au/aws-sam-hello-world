@@ -1,0 +1,13 @@
+version=0.1
+[default.global.parameters]
+
+[default.deploy.parameters]
+stack_name = "sam-hello-world"
+s3_bucket = "global-resources-881463952688"
+s3_prefix = "sam/hello-world/default"
+region = "ap-southeast-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+tags = "project=\"hello-world\" stage=\"default\""
+
+[default.build.parameters]
