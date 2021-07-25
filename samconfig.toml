@@ -10,5 +10,3 @@ confirm_changeset = true
 capabilities = "CAPABILITY_IAM"
 tags = "project=\"hello-world\" stage=\"default\""
 fail_on_empty_changeset = false
-
-[default.build.parameters]
