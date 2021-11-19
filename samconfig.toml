@@ -3,8 +3,8 @@ version=0.1
 
 [default.deploy.parameters]
 stack_name = "sam-hello-world"
-s3_bucket = "global-resources-881463952688"
-s3_prefix = "sam/hello-world/default"
+s3_bucket = "brainstation-081656289929-ap-southeast-2"
+s3_prefix = "sam/hello-world"
 region = "ap-southeast-2"
 confirm_changeset = true
 capabilities = "CAPABILITY_IAM"
